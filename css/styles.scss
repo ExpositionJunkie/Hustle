@@ -1,7 +1,17 @@
 $color-primary: red;
 $color-secondary: black;
+$color-mid: gray;
 
-
+// headings:
 h1 {
     color: $color-primary;
+}
+
+.jumbotron {
+    background-color: $color-mid;
+}
+
+// body and middle
+body {
+    background-color: $color-secondary;
 }
