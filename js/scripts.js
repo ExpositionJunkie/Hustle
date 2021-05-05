@@ -24,11 +24,13 @@ $(function () {
                             break;
                         case 5: case 6: case 7:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 600;
+                            dayEddies = 600; 
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
@@ -39,16 +41,19 @@ $(function () {
                     switch (rank) {
                         case 1: case 2: case 3: case 4:
                             eddies += 0;
+                            dayEddies = 0;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 5: case 6: case 7:
                             eddies += 100;
+                            dayEddies = 100;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
@@ -59,16 +64,19 @@ $(function () {
                     switch (rank) {
                         case 1: case 2: case 3: case 4:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 5: case 6: case 7:
                             eddies += 500;
+                            dayEddies = 500;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 800;
+                            dayEddies = 800;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
@@ -79,16 +87,19 @@ $(function () {
                     switch (rank) {
                         case 1: case 2: case 3: case 4:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 5: case 6: case 7:
                             eddies += 500;
+                            dayEddies = 500;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 800;
+                            dayEddies = 800;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
@@ -99,16 +110,19 @@ $(function () {
                     switch (rank) {
                         case 1: case 2: case 3: case 4:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 5: case 6: case 7:
                             eddies += 500;
+                            dayEddies = 500;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 800;
+                            dayEddies = 800;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
@@ -119,16 +133,19 @@ $(function () {
                     switch (rank) {
                         case 1: case 2: case 3: case 4:
                             eddies += 200;
+                            dayEddies = 200;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 5: case 6: case 7:
                             eddies += 300;
+                            dayEddies = 300;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
                         case 8: case 9: case 10:
                             eddies += 600;
+                            dayEddies = 600;
                             console.log(`${dayEddies} eb gained!`);
                             returnArray.push(returnString, dayEddies, eddies)
                             break;
