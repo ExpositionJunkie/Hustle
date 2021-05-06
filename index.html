@@ -15,18 +15,53 @@
 </head>
 <body>
     <div class="jumbotron jumbotron-fluid">
-        <h1 class="row justify-content-center align-self-center">Cyberpunk Hustle Calculator</h1>
+        <h1 class="glow glowFade row justify-content-center align-self-center">Cyberpunk Red Hustle Calculator</h1>
     </div>
 
-    <div class="newCharacter container">
-        <div>
-            <h2>Create a New Character</h2>
-            <div>
-                
-            </div>
+    <div class="newCharacter container my-5">
+        <div class="row">
+            <h2 class="mx-auto bigPlus">+</h2>
+        </div>
+        <div class="row">
+            <h2 class="mx-auto createText">Create a New Character</h2>
         </div>
     </div>
 
+    <div class="characterPicker contianer">
+        <div class="form-group align-items-center my-5">
+            <div class="form-row">
+                <select class="mx-auto col-md-3 form-control" name="charClass" id="charClass">
+                    <option selected value="select">Select Class</option>
+                    <option value="rockerboy">Rockerboy</option>
+                    <option value="solo">Solo</option>
+                    <option value="netrunner">Netrunner</option>
+                    <option value="tech">Tech</option>
+                    <option value="medtech">Med Tech</option>
+                    <option value="media">Media</option>
+                    <option value="lawman">Lawman</option>
+                    <option value="exec">Exec</option>
+                    <option value="fixer">Fixer</option>
+                    <option value="nomad">Nomad</option>
+                </select>
+                <select class="mx-auto col-md-3 form-control" name="rank" id="rank">
+                    <option selected value="select">Select Class Rank</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <input type="text" class="form-control col-md-2 mx-auto" id="days" placeholder="Days of Hustle">
+                <button type="submit" class="btn btn-danger col-md-3 mx-auto align-items-center">Do the hustle!</button>
+            </div>
+            
+        </div>
+    </div>
 
     <footer>
 

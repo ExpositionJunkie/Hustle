@@ -1,8 +1,39 @@
-h1 {
-  color: red; }
+@font-face {
+  font-family: "Cyberway Riders";
+  src: url("fonts/CyberwayRiders-lg97d.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Gputeks";
+  src: url("fonts/GputeksRegular-PZEr.ttf") format("truetype"), url("fonts/GputeksBold-d5mK.ttf") format("truetype"); }
+
+.glow {
+  text-shadow: 0.2rem 0.2rem 1rem #e90830, 0.3rem 0.3rem 1.5rem #ae1123; }
 
 .jumbotron {
-  background-color: gray; }
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  color: #ffe0df;
+  font-family: "Cyberway Riders", sans-serif;
+  word-spacing: 1rem;
+  font-size: 3rem;
+  position: relative;
+  text-shadow: 1px 1px 1px 1px #e90830;
+  font-stretch: expanded; }
 
 body {
   background-color: black; }
+
+.createText {
+  font-family: "Gputeks", sans-serif;
+  font-weight: bold; }
+
+.bigPlus {
+  font-size: 6rem; }
+
+.btn {
+  background-color: #ae1123;
+  outline-color: #e90830 !important;
+  box-shadow: 0.2rem 0.2rem 2rem #e90830;
+  align-items: center;
+  justify-content: center; }
